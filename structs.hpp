@@ -1,3 +1,5 @@
+// unchecked, unconfirmed, test dump, i will skid thorioums structs to confirm or smt if he dumps
+
 struct RobloxExtraSpace
 {
     unsigned char gap[0x18];                 // 0
