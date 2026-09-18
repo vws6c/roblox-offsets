@@ -15,3 +15,9 @@ struct RobloxExtraSpace
     std::weak_ptr<uintptr_t> Actor;          // 152
     unsigned char gap_4[0x10];               // 168
 };
+
+
+struct luastate
+{
+// soon
+};
