@@ -232,7 +232,7 @@ namespace Offsets
     namespace Raknet
     {
         const uintptr_t RaknetSend = REBASE(0x293EC90);
-        const uintptr_t RaknetReceive = REBASE(0x293F280);
+        const uintptr_t RaknetReceive_deprecated = REBASE(0x293F280); // [DFLog::RakNetStoppedProduction] RakNet has not produced packets for {} frames / {} ms
         const uintptr_t DeallocatePacket = REBASE(0x293F920);
         const uintptr_t vtable = REBASE(0x6C1D870);
     }
